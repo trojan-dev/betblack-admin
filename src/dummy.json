@@ -1,0 +1,29 @@
+[
+  {
+    "name": "T1",
+    "description": "adsdsadas",
+    "startTime": "23/05/2024",
+    "endTime": "25/05/2024",
+    "entryFee": "100",
+    "prize": "500",
+    "game": "Piano Tiles"
+  },
+  {
+    "name": "T2",
+    "description": "dqweqweeweewq",
+    "startTime": "25/05/2024",
+    "endTime": "29/05/2024",
+    "entryFee": "100",
+    "prize": "50000",
+    "game": "BattleThing"
+  },
+  {
+    "name": "T3",
+    "description": "12esadasd1dsdsd",
+    "startTime": "27/05/2024",
+    "endTime": "29/05/2024",
+    "entryFee": "100",
+    "prize": "4000",
+    "game": "Checkers"
+  }
+]
