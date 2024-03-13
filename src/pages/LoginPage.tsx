@@ -24,7 +24,7 @@ const formSchema = yup.object({
 });
 
 const LoginPage: React.FunctionComponent<ILoginPageProps> = (props) => {
-  const [loginUser, { isLoading, data }] = useLoginUserMutation();
+  const [loginUser, { isLoading }] = useLoginUserMutation();
   const navigate = useNavigate();
   const form = useForm({
     resolver: yupResolver(formSchema),
@@ -41,7 +41,9 @@ const LoginPage: React.FunctionComponent<ILoginPageProps> = (props) => {
       return false;
     }
     localStorage.setItem("betblack-admin-token", data.token);
-    navigate("/");
+    setTimeout(() => {
+      navigate("/");
+    }, 0);
   }
   return (
     <section className="h-screen text-black grid place-items-center">
